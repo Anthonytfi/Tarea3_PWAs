@@ -1,0 +1,21 @@
+{
+  "name": "Tracker de Hábitos",
+  "short_name": "Hábitos",
+  "start_url": ".",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2196f3",
+  "icons": [
+    {
+      "src": "./icons/imagen1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/imagen2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

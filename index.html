@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracker de Hábitos</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:,">
+  <script type="module" src="./src/habit-card.js"></script>
+  <script type="module" src="./src/espe-header.js"></script>
+  <script type="module" src="./src/app.js"></script>
+  <script type="module" src="./src/test-card.js"></script>
+  <script src="./src/sw-register.js"></script>
+</head>
+<body>
+  <espe-header>
+    <div style="display: flex; align-items: center; gap: 1rem;">
+      <img src="./icons/imagen1.png" alt="Logo Hábitos" style="height: 40px;">
+      <h1 style="margin: 0;">Tracker de Hábitos</h1>
+    </div>
+  </espe-header>
+
+  <main>
+    <input id="new-habit" placeholder="Nuevo hábito">
+    <button id="add-button">Agregar</button>
+    <div id="habits-list"></div>
+  </main>
+
+  <test-card></test-card>
+</body>
+</html>
