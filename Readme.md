@@ -1,4 +1,4 @@
-# Habit Tracker PWA
+# Tracker de Hábitos PWA
 
 Esta Tarea es una aplicación web progresiva (PWA) diseñada para registrar hábitos diarios. Está construida con una arquitectura modular, integración de componentes externos, y estilos personalizados que garantizan claridad visual, responsividad y trazabilidad técnica.
 
